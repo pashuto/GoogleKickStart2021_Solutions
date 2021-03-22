@@ -1,10 +1,9 @@
 """ Problem: https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c2c3
-    It was super close to Time Limit for the task, so i had to 
-    - remove classes
-    - use short names 
+    It was super close to TLE for this task in Python, so i had to 
     - do not use a recursion in UnionFind
-    - do not use a rank in UnionFind(which was 4 sec faster for these cases)
-    - no wrappers for inputs and skip zero values
+    - do not use a rank in UnionFind (no-rank was 4 sec faster for these cases)
+    - no wrappers for inputs
+    - filter out zero values
 """
 from operator import itemgetter
 
