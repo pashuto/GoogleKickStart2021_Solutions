@@ -2,7 +2,7 @@
 """
 import heapq
 
-class Solution:
+class Rabbit_House:
 
     def trim(self):
         return input()
@@ -48,7 +48,7 @@ class Solution:
         print(f"Case #{case}: {res}")
 
 def main():
-    s = Solution()
+    s = Rabbit_House()
     tc = s.rInt()
     for i in range(tc):
         R, C = s.rIntMap()
