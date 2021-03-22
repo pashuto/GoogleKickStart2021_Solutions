@@ -1,6 +1,6 @@
 """ Problem: https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c509
 """
-class Solution:
+class L_Shaped_Plots:
 
     def trim(self):
         return input()
@@ -62,7 +62,7 @@ class Solution:
         print(f"Case #{case}: {res}")
 
 def main():
-    s = Solution()
+    s = L_Shaped_Plots()
     tc = s.rInt()
     for i in range(tc):
         R, C = s.rIntMap()
